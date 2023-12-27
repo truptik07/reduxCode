@@ -12,7 +12,6 @@ console.log(count)
     <div>
       <h1>Use Callback</h1>
       <h1>Count : {count}</h1>
-      <h1>hello</h1>
       <button onClick={() => dispatch({ type: 'Icre' })} >Increment</button>
       <button onClick={()=>dispatch({type:'Decr'})} >Decrement</button>
 
